@@ -1,5 +1,5 @@
 /**
- *   大搜索 商品列
+ *   购物车
  */
 
 import { } from '../../utils/util.js';

@@ -1,5 +1,5 @@
 /**
- *   大搜索 商品列
+ *   商城首页
  */
 
 import { } from '../../utils/util.js';

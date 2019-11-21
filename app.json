@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/catalog/catalog",
+    "pages/cart/cart",
+    "pages/ucenter/index/index",
+    "pages/home/home"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -45,5 +48,5 @@
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
-  },
+  }
 }

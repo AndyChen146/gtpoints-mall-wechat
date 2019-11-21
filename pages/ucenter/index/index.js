@@ -1,10 +1,10 @@
 /**
- *   大搜索 商品列
+ *   个人中心首页
  */
 
-import { } from '../../utils/util.js';
-import { } from '../../config/api.js';
-import { } from '../../services/user.js';
+import { } from '../../../utils/util.js';
+import { } from '../../../config/api.js';
+import { } from '../../../services/user.js';
 
 //获取应用实例
 const app = getApp()

@@ -1,13 +1,10 @@
 /**
- *   大搜索 商品列
+ *   商品详情
  */
-
-import { } from '../../utils/util.js';
-import { } from '../../config/api.js';
-import { } from '../../services/user.js';
-
-//获取应用实例
-const app = getApp()
+var app = getApp();
+var WxParse = require('../../lib/wxParse/wxParse.js');
+var util = require('../../utils/util.js');
+var api = require('../../config/api.js');
 
 Page({
     data: {
