@@ -1,0 +1,78 @@
+
+.total{
+  height: 104rpx;
+  background: #fff;
+  width: 100%;
+  line-height: 104rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.total .label{
+  float: left;
+}
+.total .txt{
+  float: right;
+  color: #ec544f;
+}
+.pay-list{
+    margin-top: 30rpx;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.pay-list .h{
+    width: 100%;
+    height: 24rpx;
+    line-height: 24rpx;
+    margin-left: 31.25rpx;
+    margin-bottom: 31.25rpx;
+}
+.pay-list .item{
+    height: 108rpx;
+    padding-left: 31.25rpx;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pay-list .icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10.5rpx;
+    width: 56.25rpx;
+    height: 56.25rpx;
+}
+.pay-list .name{
+    display: inline-block;
+    vertical-align: middle;
+    height: 56.25rpx;
+    line-height: 56.25rpx;
+}
+.pay-btn{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100rpx;
+    width: 100%;
+    text-align: center;
+    line-height: 100rpx;
+    background: #ec544f;
+    color: #fff;
+    font-size: 30rpx;
+}
+.tips{
+  height: 40rpx;
+  width: 100%;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 40rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+

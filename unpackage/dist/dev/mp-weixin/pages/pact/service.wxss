@@ -1,0 +1,36 @@
+
+page{
+	background: #fff;
+}
+.main{
+	padding: 20rpx;
+}
+.main-title{
+	width: 100%;
+	font-size: 40rpx;
+	text-align: center;
+	padding: 20rpx;
+}
+.main-h3{
+	font-size: 26rpx;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+}
+.main-h4{
+	font-size: 24rpx;
+	font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.main-desc{
+	font-size: 24rpx;
+	line-height: 40rpx;
+	margin-bottom: 20rpx;
+	text-indent: 48rpx;
+}
+.main-desc-h5{
+	font-size: 22rpx;
+	line-height: 40rpx;
+	margin-bottom: 10rpx;
+	text-indent: 48rpx;
+}
+

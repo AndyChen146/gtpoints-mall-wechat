@@ -1,0 +1,74 @@
+
+.no_lottery{
+	text-align: center;
+	margin-top: 200rpx;
+}
+.no_lottery .img{
+	width: 100rpx;
+	height: 100rpx;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20rpx;
+}
+.no_lottery .wz{
+	font-size: 28rpx;
+	color: #999;
+}
+.recharge{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.item{
+	margin-top: 20rpx;
+	background: #fff;
+	position: relative;
+}
+.item .h{
+	height: 83.3rpx;
+	line-height: 83.3rpx;
+	padding-left: 31.25rpx;
+	padding-right: 31.25rpx;
+	border-bottom: 1px solid #f4f4f4;
+	font-size: 30rpx;
+	color: #333;
+}
+.item .h .l{
+	float: left;
+}
+.item .h .r{
+	float: right;
+	color: #ec544f;
+	font-size: 24rpx;
+}
+.item .b{
+	padding: 32rpx;
+}
+.item .b .times{
+	font-size: 24rpx;
+	color: #999;
+	margin-bottom: 10rpx;
+}
+.item .b .money text{
+	color: #ec544f;
+}
+.item .b .status{
+	font-size: 24rpx;
+	color: #666;
+	margin-bottom: 10rpx;
+}
+.item .button {
+	position: absolute;
+	font-size: 24rpx;
+	color: #ec544f;
+	border: 1px solid #ec544f;
+	border-radius: 10rpx;
+	width: 160rpx;
+	height: 50rpx;
+	bottom: 20rpx;
+	right: 20rpx;
+	text-align: center;
+	line-height: 50rpx;
+	background-color: #fff;
+}
+

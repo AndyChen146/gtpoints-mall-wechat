@@ -1,0 +1,275 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "积分云购",
+				"enablePullDownRefresh": false
+			}
+		},
+	    {
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+        },
+		{
+			"path" : "pages/home/home",
+			"style" : {
+				"navigationBarTitleText": "商城首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/cart/cart",
+			"style" : {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/user/index",
+			"style" : {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{"path" : "pages/search/search"},
+		{
+			"path":"pages/category/category",
+			"style":{
+				"navigationBarTextStyle":"商品分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/goodlist/list",
+			"style":{
+				"navigationBarTextStyle":"商品列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/goods/index",
+			"style":{
+				"navigationBarTextStyle":"商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/assess/index",
+			"style":{
+				"navigationBarTextStyle":"商品评价",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/assess/add",
+			"style":{
+				"navigationBarTextStyle":"新增评价",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/Indianapolis/index",
+			"style":{
+				"navigationBarTextStyle":"积分夺宝",
+				"enablePullDownRefresh": false
+			}
+		},
+		{"path":"pages/Indianapolis/info"},
+		{
+			"path":"pages/panic/index",
+			"style":{
+				"navigationBarTextStyle":"免费抢购",
+				"enablePullDownRefresh": false
+			}
+		},
+		{"path":"pages/panic/info"},
+		{
+			"path":"pages/shoping/checkout",
+			"style":{
+				"navigationBarTextStyle":"确认订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/shoping/addr",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/shoping/editAddre",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/order",
+			"style":{
+				"navigationBarTextStyle":"我的订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/lottery",
+			"style":{
+				"navigationBarTextStyle":"我的抽奖",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/recharge",
+			"style":{
+				"navigationBarTextStyle":"充值记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/addr",
+			"style":{
+				"navigationBarTextStyle":"管理收货地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/addAddre",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/editAddress",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/lottery/addr",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/lottery/editAddre",
+			"style":{
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/orderDetail",
+			"style":{
+				"navigationBarTextStyle":"订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/user/caption",
+			"style":{
+				"navigationBarTextStyle":"公司说明",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/pay/index",
+			"style":{
+				"navigationBarTextStyle":"支付订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/pay/result",
+			"style":{
+				"navigationBarTextStyle":"支付结果",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/blueprint/index",
+			"style":{
+				"navigationBarTextStyle":"幸福晒图",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/pay/recharge",
+			"style":{
+				"navigationBarTextStyle":"金融充值",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/pact/service",
+			"style":{
+				"navigationBarTextStyle":"用户协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/withdraw/index",
+			"style":{
+				"navigationBarTextStyle":"我的钱包",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path":"pages/withdraw/list",
+			"style":{
+				"navigationBarTextStyle":"提现列表",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#ec544f",
+		"navigationBarTitleText": "积分云购",
+		"navigationBarTextStyle": "white",
+		"enablePullDownRefresh": true
+	},
+	"tabBar":{
+		"backgroundColor":"#fafafa",
+		"borderStyle":"white",
+		"selectedColor":"#b4282d",
+		"color":"#666",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/images/ic_menu_choice_nor.png",
+				"selectedIconPath":"static/images/ic_menu_choice_pressed.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/home/home",
+				"iconPath":"static/images/ic_menu_shop_nor.png",
+				"selectedIconPath":"static/images/ic_menu_shop.png",
+				"text":"商城"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/images/ic_menu_shoping_nor.png",
+				"selectedIconPath":"static/images/ic_menu_shoping_pressed.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/user/index",
+				"iconPath":"static/images/ic_menu_me_nor.png",
+				"selectedIconPath":"static/images/ic_menu_me_pressed.png",
+				"text":"我的"
+			}
+		]
+	},
+	
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

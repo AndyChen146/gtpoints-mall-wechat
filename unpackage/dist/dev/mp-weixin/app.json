@@ -1,0 +1,81 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/login/login",
+		"pages/home/home",
+		"pages/cart/cart",
+		"pages/user/index",
+		"pages/search/search",
+		"pages/category/category",
+		"pages/goodlist/list",
+		"pages/goods/index",
+		"pages/assess/index",
+		"pages/assess/add",
+		"pages/Indianapolis/index",
+		"pages/Indianapolis/info",
+		"pages/panic/index",
+		"pages/panic/info",
+		"pages/shoping/checkout",
+		"pages/shoping/addr",
+		"pages/shoping/editAddre",
+		"pages/user/order",
+		"pages/user/lottery",
+		"pages/user/recharge",
+		"pages/user/addr",
+		"pages/user/addAddre",
+		"pages/user/editAddress",
+		"pages/lottery/addr",
+		"pages/lottery/editAddre",
+		"pages/user/orderDetail",
+		"pages/user/caption",
+		"pages/pay/index",
+		"pages/pay/result",
+		"pages/blueprint/index",
+		"pages/pay/recharge",
+		"pages/pact/service",
+		"pages/withdraw/index",
+		"pages/withdraw/list"
+	],
+	"subPackages": [],
+	"window": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#ec544f",
+		"navigationBarTitleText": "积分云购",
+		"navigationBarTextStyle": "white",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"backgroundColor": "#fafafa",
+		"borderStyle": "white",
+		"selectedColor": "#b4282d",
+		"color": "#666",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/ic_menu_choice_nor.png",
+				"selectedIconPath": "static/images/ic_menu_choice_pressed.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/images/ic_menu_shop_nor.png",
+				"selectedIconPath": "static/images/ic_menu_shop.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/images/ic_menu_shoping_nor.png",
+				"selectedIconPath": "static/images/ic_menu_shoping_pressed.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/images/ic_menu_me_nor.png",
+				"selectedIconPath": "static/images/ic_menu_me_pressed.png",
+				"text": "我的"
+			}
+		]
+	},
+	"usingComponents": {},
+	"sitemapLocation": "sitemap0.json"
+}

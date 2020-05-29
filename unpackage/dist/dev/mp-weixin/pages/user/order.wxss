@@ -1,0 +1,334 @@
+
+.cate-nav{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 1000;
+}
+.cate-nav-body{
+    height: 84rpx;
+    white-space: nowrap;   
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,.15);
+    overflow: hidden;
+}
+.cate-nav .item{
+    display: inline-block;
+    height: 84rpx;
+    min-width: 130rpx;
+    padding: 0 15rpx;
+}
+.cate-nav .item .name{
+    display: block;
+    height: 84rpx;
+    padding: 0 20rpx;
+    line-height: 84rpx;
+    color: #333;
+    font-size: 30rpx;
+    width: auto;
+}
+.cate-nav .item.active .name{
+    color: #ec544f;
+    border-bottom: 2px solid #ec544f;
+}
+.orders{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+	margin-top: 100rpx;
+}
+.order{
+    margin-top: 20rpx;
+    background: #fff;
+}
+.order .h{
+    height: 83.3rpx;
+    line-height: 83.3rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 30rpx;
+    color: #333;
+}
+.order .h .l{
+    float: left;
+}
+.order .h .r{
+    float: right;
+    color: #ec544f;
+    font-size: 24rpx;
+}
+.order .goods{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 199rpx;
+    margin-left: 31.25rpx;
+}
+.order .goods .img{
+    height:145.83rpx;
+    width:145.83rpx;
+    background: #f4f4f4;
+}
+.order .goods .img image{
+    height:145.83rpx;
+    width:145.83rpx;
+}
+.order .goods .info{
+    height: 145.83rpx;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-left: 20rpx;
+}
+.order .goods .name{
+	width: 70%;
+    margin-top: 30rpx;
+    display: block;
+    height: 44rpx;
+    line-height: 44rpx;
+    color: #333;
+    font-size: 30rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.order .goods .number{
+    display: block;
+    height: 37rpx;
+    line-height: 37rpx;
+    color: #666;
+    font-size: 25rpx;
+}
+.order .goods .status{
+    width:105rpx;
+    color: #ec544f;
+    font-size: 25rpx;
+}
+.order .b{
+    height: 103rpx;
+    line-height: 103rpx;
+    margin-left: 31.25rpx;
+    padding-right: 31.25rpx;
+    border-top: 1px solid #f4f4f4;
+    font-size: 30rpx;
+    color: #333;
+}
+.order .b .l{
+    float: left;
+}
+.order .b .r{
+    float: right;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.order .b .btn.blue{
+	background: #007AFF;
+	margin-left: 20rpx;
+}
+.order .b .btn{
+    margin-top: 19rpx;
+    height: 64.5rpx;
+    line-height: 64.5rpx;
+    text-align: center;
+    padding: 0 20rpx;
+    border-radius: 5rpx;
+    font-size: 28rpx;
+    color: #fff;
+    background: #ec544f;
+}
+.no_lottery{
+	text-align: center;
+	margin-top: 200rpx;
+}
+.no_lottery .img{
+	width: 100rpx;
+	height: 100rpx;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20rpx;
+}
+.no_lottery .wz{
+	font-size: 28rpx;
+	color: #999;
+}
+.rule{
+	width: 90%;
+	height: auto;
+	border-radius: 10rpx;
+	position: fixed;
+	top: 300rpx;
+	left: 5%;
+	background-color: #fff;
+	z-index: 101;
+}
+.rule .rule-title{
+	width: 100%;
+	text-align: center;
+	font-size: 32rpx;
+	font-weight: bold;
+	padding: 30rpx;
+}
+.rule .close{
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	right: 20rpx;
+	top: 20rpx;
+}
+.rule .rule_contect{
+	padding: 0 30rpx 30rpx 30rpx;
+}
+.rule .rule_contect .nologdata{
+	font-size: 26rpx;
+	color: #666;
+	text-align: center;
+	line-height: 100rpx;
+}
+.rule .rule_contect .log-li{
+	text-align: left;
+	position: relative;
+	height: 80rpx;
+}
+.rule .rule_contect .log-li:before{
+	content: '';
+	background: #edf0f5;
+	width: 2rpx;
+	height: 100rpx;
+	position: absolute;
+	left: 5rpx;
+	top: 3rpx;
+}
+.rule .rule_contect .log-li .log-li-a{
+	display: inline-block;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 100%;
+	position: absolute;
+	background: #0067ed;
+	top: 0;
+	left: 3rpx;
+}
+.rule .rule_contect .log-li .log-record-xx{
+	position: absolute;
+	left: 60rpx;
+	top: 4rpx;
+	color: #1e1f30;
+	font-size: 24rpx;
+}
+.rule .rule_contect .log-li .log-record-time{
+	position: absolute;
+	line-height: 32rpx;
+	left: 60rpx;
+	top: 36rpx;
+	color: #9fafbc;
+	font-size: 24rpx;
+}
+.rule_mask,.pay_mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	background: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	max-width: 61.3333333rem;
+	margin: auto;
+}
+.pay{
+	width: 100%;
+	height: 500rpx;
+	background-color: #fff;
+	border-radius: 10rpx 10rpx 0 0;
+	z-index: 101;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.pay-list{
+    margin-top: 30rpx;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.pay-list .h{
+    width: 100%;
+    height: 28rpx;
+    line-height: 28rpx;
+    margin-left: 31.25rpx;
+    margin-bottom: 31.25rpx;
+}
+.pay-list .item{
+    height: 108rpx;
+    padding-left: 31.25rpx;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pay-list .checkbox{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAMAAACf4xmcAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABCUExURUdwTMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzAV+Z0EAAAAVdFJOUwAJ+KUEFTPay2bzRXdZ7RkhmJ6qJOWhY+QAAAEDSURBVDjLnZTplsIgDIUNWwK2tdt9/1cdxHGmVcAc+dH25Hw0+71cvjhztDIZM4mNc4txo+BwZKxSVwbSFoMn8iFuCeDrG0RLNkc6GGK+ttCZ8gIzuJcgBgPxJ4rB4T2OkM0HjgRyq8V7Y8i/3/V06YVb/nKECa0qBYPffB1jaFd8AD8+RrBrY8R41FkQew2MkPtrR6IeRglzoW1/HrbizfZ9Pv8jCH0slOAm+D7mMeUn4PoYwegxpVNlCsqCKMurbJay9R8GyT0HSTmWeciTYsh7K+MPK1MW0H9eQOU652sqcch+15rUrFQXLpuFy7ksXLYuXDUZbBZ9v4sqiqju34jyD97JD4dkfgo1AAAAAElFTkSuQmCC) center center no-repeat;
+	background-size: 100%;
+	border-radius: 50%;
+    width: 40rpx;
+    height: 40rpx;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30rpx;
+}
+.pay-list .checkbox.checked{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAEjklEQVRYR9WYT4gbdRTHv2+StLUgu2smWyseLFoKLYLVqghSqxVtxWSS6cyiFwWpl+KhB63gpasgIvYiiB5aPeihdDMzmUl1RbAFq4hQUYTWg1WooGvbTborisVu5vdkkp3sbP5sfpNkD+Y4ee/7+/z+vd97j9DH708zd8cCQycoWYDHmDAGxlhdijBHjDmA5hjiZIrgjBTLP8cdhuI4VA1tP8A6g/bG8SPwpwA5acs7JusnBVY1ciaIXmDGTlnhTnZEOAPmd9JWudhLZ0Wwy/n87YkUHwEj30so1v8E11+gFze47i/d/LqCVUytAMYHAEZjDSpvPA/Cc2rRK3Vc3U4fZ43cJIEOy4/RvyWDX81Y5clWhbYVm9+X21EjOtv/UPE9k8z3jtrlb6Oey8D+KhTG/02K78G4Jb78AB6EmbU1ZfuNpdKVUGUZWNXULGbsG2CIvl2JYKeLntEGFoQEBk31rRzHkTDDzEcJtAfA/UswPBGGkuaKVU3ti0HjlAwbgy/4vq/fXPrk3Kz+5N1QEl8TsLb+aBDOpIveQ40HBEAQ0Rk4KiM8oM2vLHw943z8XahTNbRzDGyLbOHzwQtRB6sY+VMAPzLgoL3c/yAh9LRz8pvQ8IqRM5W240OnVcvdTVVT28qM871UB/mfgKoiWB9zymdCnYqR1QDFApBsi2GEbbTawZSBv0mgoDre5yHAVSO/V4ADqPWdJkzgSaoa+S8Z/OAgK7KC73WFUbjJ9qabK6Vrj0JBADXSzY9AX1Hr4WsaMy6CMM1gk0CZvsCZCqrtuqHv3ERupy+C7eMV9Qg4TxVT+71TpF+o0aaNrnsxOINgTEVvjgykEHhq3PFOhLaXzcIDCRbBSvV+VQgzVDG0fwDcsGwwxk+q7W1pXum4cIKeUR33o9B/1szfQ4ItEG6TmRSAa53BGsHucLrovRYXTgjaP+647zcPuqnd6TPbBNosCRWYXeu6lQ0RekW13Dek4ZgPqHb5vaWVym0hJhuRACoFF2xl18O/qMDASxnLO9ILjpgPpu3y26HdvJndVGMlgNouBRMxqh9+mXBBxAfTxaVBWy8EMx/K2OW3Qu3fdP3WdYofQN0XF6q+T0G4qBi5QwC9KSHwrGp5H7atHOO4anuvh98vFQrjqQTbg8VGfpkaNSJdkACDz9izwfY+i8Kli96PzTiVz4/6KXbAeFhGr5tNinjzYnaRm5atFRMJ5a6xE6UfWkVnstn1a9YpAdTjg0AFNWjaKj/RV9ojaGHjeHH6UgjAu3Ylq5mRACo7CFTjfGEp7Qk+xE0UVcurT2ounx8VKT42jJS8LVGsg8VPra+CUYaCx4ZVvBA6pNYBXMXUSkOvumX3luCqRa8Qmi+rkuotgSQH9d1qVd/dMOf9Gu2ItgzaCt7F1oAjO9Gh2BH01lZBx97Fame10clItwiab13QKlDIG9bBbltZwkxSsNbaGuh4xlqdg5bB9aR4dxihIKodVN1rasqBaEugdez/Z+OudRaNwpiejl+D0mkCHx96q7MN0NS2CuYJBcrulZrDAuKUQjQVfehlb/F/dkT8Hz3zhNYAAAAASUVORK5CYII=) center center no-repeat;
+	background-size: 100%;
+}
+.pay-list .icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10.5rpx;
+    width: 56.25rpx;
+    height: 56.25rpx;
+}
+.pay-list .name{
+    display: inline-block;
+    vertical-align: middle;
+    height: 56.25rpx;
+    line-height: 56.25rpx;
+}
+.pay .btn{
+	width: 90%;
+	height: 80rpx;
+	position: absolute;
+	background-color: #ec544f;
+	color: #fff;
+	margin: 0 auto;
+	bottom: 20rpx;
+	left: 5%;
+	border-radius: 30rpx;
+	text-align: center;
+	font-size: 30rpx;
+	line-height: 80rpx;
+}
+.pay .close{
+	width: 60rpx;
+	height: 60rpx;
+	position: absolute;
+	right: 20rpx;
+	top: 30rpx;
+}
+

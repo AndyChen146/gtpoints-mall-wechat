@@ -1,0 +1,104 @@
+
+page{
+	background-color: #ffffff;
+}
+.container{
+	background-color: #ffffff;
+}
+.box{
+	padding: 30rpx;
+	border-bottom: 2rpx solid #d4d4d4;
+}
+.box .assess{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.box .assess text{
+	font-size: 28rpx;
+}
+.box .assess .item{
+	width: 80rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-left: 20rpx;
+	border: 1rpx solid #999;
+	font-size: 24rpx;
+	text-align: center;
+	border-radius: 6rpx;
+}
+.box .assess .item.active{
+	border: 1rpx solid #ec544f;
+	color: #ec544f;
+}
+.box .anonymous{
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.default-input{
+    margin-left: 20rpx;
+    display: block;
+    width: 240rpx;
+    height: 40rpx;
+    padding-left: 50rpx;
+    line-height: 40rpx;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAMAAACf4xmcAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABCUExURUdwTMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzAV+Z0EAAAAVdFJOUwAJ+KUEFTPay2bzRXdZ7RkhmJ6qJOWhY+QAAAEDSURBVDjLnZTplsIgDIUNWwK2tdt9/1cdxHGmVcAc+dH25Hw0+71cvjhztDIZM4mNc4txo+BwZKxSVwbSFoMn8iFuCeDrG0RLNkc6GGK+ttCZ8gIzuJcgBgPxJ4rB4T2OkM0HjgRyq8V7Y8i/3/V06YVb/nKECa0qBYPffB1jaFd8AD8+RrBrY8R41FkQew2MkPtrR6IeRglzoW1/HrbizfZ9Pv8jCH0slOAm+D7mMeUn4PoYwegxpVNlCsqCKMurbJay9R8GyT0HSTmWeciTYsh7K+MPK1MW0H9eQOU652sqcch+15rUrFQXLpuFy7ksXLYuXDUZbBZ9v4sqiqju34jyD97JD4dkfgo1AAAAAElFTkSuQmCC) left center no-repeat;
+	background-size: 14%;
+    font-size: 28rpx;
+}
+.default-input.selected{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAEjklEQVRYR9WYT4gbdRTHv2+StLUgu2smWyseLFoKLYLVqghSqxVtxWSS6cyiFwWpl+KhB63gpasgIvYiiB5aPeihdDMzmUl1RbAFq4hQUYTWg1WooGvbTborisVu5vdkkp3sbP5sfpNkD+Y4ee/7+/z+vd97j9DH708zd8cCQycoWYDHmDAGxlhdijBHjDmA5hjiZIrgjBTLP8cdhuI4VA1tP8A6g/bG8SPwpwA5acs7JusnBVY1ciaIXmDGTlnhTnZEOAPmd9JWudhLZ0Wwy/n87YkUHwEj30so1v8E11+gFze47i/d/LqCVUytAMYHAEZjDSpvPA/Cc2rRK3Vc3U4fZ43cJIEOy4/RvyWDX81Y5clWhbYVm9+X21EjOtv/UPE9k8z3jtrlb6Oey8D+KhTG/02K78G4Jb78AB6EmbU1ZfuNpdKVUGUZWNXULGbsG2CIvl2JYKeLntEGFoQEBk31rRzHkTDDzEcJtAfA/UswPBGGkuaKVU3ti0HjlAwbgy/4vq/fXPrk3Kz+5N1QEl8TsLb+aBDOpIveQ40HBEAQ0Rk4KiM8oM2vLHw943z8XahTNbRzDGyLbOHzwQtRB6sY+VMAPzLgoL3c/yAh9LRz8pvQ8IqRM5W240OnVcvdTVVT28qM871UB/mfgKoiWB9zymdCnYqR1QDFApBsi2GEbbTawZSBv0mgoDre5yHAVSO/V4ADqPWdJkzgSaoa+S8Z/OAgK7KC73WFUbjJ9qabK6Vrj0JBADXSzY9AX1Hr4WsaMy6CMM1gk0CZvsCZCqrtuqHv3ERupy+C7eMV9Qg4TxVT+71TpF+o0aaNrnsxOINgTEVvjgykEHhq3PFOhLaXzcIDCRbBSvV+VQgzVDG0fwDcsGwwxk+q7W1pXum4cIKeUR33o9B/1szfQ4ItEG6TmRSAa53BGsHucLrovRYXTgjaP+647zcPuqnd6TPbBNosCRWYXeu6lQ0RekW13Dek4ZgPqHb5vaWVym0hJhuRACoFF2xl18O/qMDASxnLO9ILjpgPpu3y26HdvJndVGMlgNouBRMxqh9+mXBBxAfTxaVBWy8EMx/K2OW3Qu3fdP3WdYofQN0XF6q+T0G4qBi5QwC9KSHwrGp5H7atHOO4anuvh98vFQrjqQTbg8VGfpkaNSJdkACDz9izwfY+i8Kli96PzTiVz4/6KXbAeFhGr5tNinjzYnaRm5atFRMJ5a6xE6UfWkVnstn1a9YpAdTjg0AFNWjaKj/RV9ojaGHjeHH6UgjAu3Ylq5mRACo7CFTjfGEp7Qk+xE0UVcurT2ounx8VKT42jJS8LVGsg8VPra+CUYaCx4ZVvBA6pNYBXMXUSkOvumX3luCqRa8Qmi+rkuotgSQH9d1qVd/dMOf9Gu2ItgzaCt7F1oAjO9Gh2BH01lZBx97Fame10clItwiab13QKlDIG9bBbltZwkxSsNbaGuh4xlqdg5bB9aR4dxihIKodVN1rasqBaEugdez/Z+OudRaNwpiejl+D0mkCHx96q7MN0NS2CuYJBcrulZrDAuKUQjQVfehlb/F/dkT8Hz3zhNYAAAAASUVORK5CYII=) left center no-repeat;
+	background-size: 14%;
+}
+.desc{
+	padding: 30rpx;
+}
+.desc_textarea{
+	width: 100%;
+	height: 200rpx;
+}
+.uplaod{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.uplaod .desc_img{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+	margin-right: 10rpx;
+}
+.uplaod .desc_uplaod{
+	width: 200rpx;
+	height: 200rpx;
+	background-color: #f4f4f4;
+	border-radius: 10rpx;
+	text-align: center;
+	font-size: 50rpx;
+	line-height: 200rpx;
+	color: #999;
+}
+.btn{
+	width: 100%;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 40rpx;
+}
+.botton{
+	width: 40%;
+	border: none;
+}
+.submit {
+	color: #ffffff;
+	background-color: #23a0ff;
+}
+

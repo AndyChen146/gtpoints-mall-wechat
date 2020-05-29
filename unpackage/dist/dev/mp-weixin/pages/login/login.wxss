@@ -1,0 +1,94 @@
+
+.container{
+	background-color: #ffffff;
+}
+page{
+	background-color: #ffffff;
+}
+.main_logo{
+	width: 90%;
+	border-bottom: 2rpx solid #f4f4f4;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100rpx;
+	padding-bottom: 60rpx;
+}
+.main_logo .logo{
+	width: 160rpx;
+	height: 160rpx;
+	margin-bottom: 30rpx;
+	border-radius: 10rpx;
+}
+.main_logo .main_logo_name{
+	font-size: 32rpx;
+	color: #666;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+}
+.main .main_title{
+	margin-top: 40rpx;
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 20rpx;
+}
+.main .main_desc{
+	font-size: 24rpx;
+	color: #999;
+	margin-bottom: 30rpx;
+}
+checkbox .wx-checkbox-input{
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   	background: #1AAD19;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+	border-radius: 50%;/* 圆角 */
+   width: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 40rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: transparent;
+   -ms-transform:translate(-50%, -50%) scale(1);
+       transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+.main .main_checkout{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.main .main_checkout .main_content{
+	font-size: 26rpx;
+	line-height: 40rpx;
+	margin-left: 10rpx;
+}
+.main .main_checkout .main_content_xy{
+	font-size: 26rpx;
+	color: #E64340;
+	cursor: pointer;
+}
+.main .main_btn{
+	width: 70%;
+	height: 80rpx;
+	background-color: #1AAD19;
+	border-radius: 20rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #ffffff;
+	font-size: 30rpx;
+	margin: 100rpx auto 50rpx auto;
+	cursor: pointer;
+}
+.main .main_btn.disabled{
+	background-color: #999999;
+}
+

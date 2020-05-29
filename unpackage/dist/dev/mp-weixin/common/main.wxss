@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.container {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #f4f4f4;
+	font-family: PingFangSC-Light,helvetica,'Heiti SC';
+	height: 100%;
+}
+view,image,text,navigator{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+page {
+	background: #f4f4f4;
+}
+view,text{
+	font-family: PingFangSC-Light,helvetica,'Heiti SC';
+	font-size: 28rpx;
+	color: #333;
+}
+.clear {
+	zoom: 1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
